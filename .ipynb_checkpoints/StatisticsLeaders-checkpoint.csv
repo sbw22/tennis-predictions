@@ -1,0 +1,101 @@
+rank,name,country_name,country_id,value
+1,Ben Shelton,United States,USA,222 km/h
+2,Matteo Berrettini,Italy,ITA,210 km/h
+3,Maxime Cressy,United States,USA,207 km/h
+4,John Isner,United States,USA,205 km/h
+5,Alexander Zverev,Germany,GER,204 km/h
+6,Hubert Hurkacz,Poland,POL,204 km/h
+7,Denis Shapovalov,Canada,CAN,203 km/h
+8,Alex De Minaur,Australia,AUS,203 km/h
+9,Sebastian Ofner,Austria,AUT,203 km/h
+10,Nicolas Jarry,Chile,CHI,202 km/h
+11,Grigor Dimitrov,Bulgaria,BUL,202 km/h
+12,Felix Auger Aliassime,Canada,CAN,202 km/h
+13,Alexander Bublik,Kazakhstan,KAZ,201 km/h
+14,Borna Gojo,Croatia,CRO,201 km/h
+15,Lorenzo Sonego,Italy,ITA,201 km/h
+16,Daniil Medvedev,Russian Federation,RUS,201 km/h
+17,Quentin Halys,France,FRA,200 km/h
+18,Arthur Rinderknech,France,FRA,200 km/h
+19,Stefanos Tsitsipas,Greece,GRE,200 km/h
+20,Jan Lennard Struff,Germany,GER,199 km/h
+21,Taylor Harry Fritz,United States,USA,198 km/h
+22,Zhizhen Zhang,China,CHN,198 km/h
+23,Yosuke Watanuki,Japan,JPN,198 km/h
+24,Holger Vitus Nodskov Rune,Denmark,DEN,198 km/h
+25,Andrea Vavassori,Italy,ITA,198 km/h
+25,Maximilian Marterer,Germany,GER,198 km/h
+27,Feliciano Lopez,Spain,ESP,197 km/h
+28,Jack Draper,United Kingdom,GBR,197 km/h
+29,Thanasi Kokkinakis,Australia,AUS,197 km/h
+30,Andrey Rublev,Russian Federation,RUS,197 km/h
+31,Tallon Griekspoor,Netherlands,NED,196 km/h
+32,Alexei Popyrin,Australia,AUS,196 km/h
+33,Benjamin Bonzi,France,FRA,196 km/h
+34,Jack Sock,United States,USA,196 km/h
+34,Thiago Monteiro,Brazil,BRA,196 km/h
+34,Zizou Bergs,Belgium,BEL,196 km/h
+37,Arthur Fils,France,FRA,195 km/h
+38,Botic Van De Zandschulp,Netherlands,NED,195 km/h
+39,Jannik Sinner,Italy,ITA,195 km/h
+40,Sebastian Korda,United States,USA,195 km/h
+41,Tomas Martin Etcheverry,Argentina,ARG,195 km/h
+42,Luca Van Assche,France,FRA,194 km/h
+43,Emil Ruusuvuori,Finland,FIN,194 km/h
+44,Jiri Lehecka,Czech Republic,CZE,194 km/h
+45,Marc Andrea Huesler,Switzerland,SUI,194 km/h
+46,Frances Tiafoe,United States,USA,193 km/h
+47,Stan Wawrinka,Switzerland,SUI,193 km/h
+48,Aslan Karatsev,Russian Federation,RUS,193 km/h
+49,Gael Monfils,France,FRA,193 km/h
+49,Michael Mmoh,United States,USA,193 km/h
+51,Christopher Eubanks,United States,USA,192 km/h
+52,Aleksandar Vukic,Australia,AUS,192 km/h
+53,Karen Khachanov,Russian Federation,RUS,192 km/h
+54,Alejandro Tabilo,Chile,CHI,192 km/h
+54,Aleksandar Kovacevic,United States,USA,192 km/h
+56,Borna Coric,Croatia,CRO,191 km/h
+57,Novak Djokovic,Serbia,SRB,191 km/h
+58,Yibing Wu,China,CHN,191 km/h
+59,Brandon Nakashima,United States,USA,191 km/h
+60,Roman Safiullin,Russian Federation,RUS,191 km/h
+61,Alexander Shevchenko,Russian Federation,RUS,191 km/h
+62,Lloyd George Muirhead Harris,South Africa,RSA,191 km/h
+63,Casper Ruud,Norway,NOR,191 km/h
+64,Laslo Djere,Serbia,SRB,190 km/h
+65,Facundo Bagnis,Argentina,ARG,190 km/h
+65,Soon Woo Kwon,"Korea, Republic of",KOR,190 km/h
+67,Abedallah Shelbayh,Jordan,JOR,189 km/h
+68,Filip Misolic,Austria,AUT,189 km/h
+69,Max Purcell,Australia,AUS,188 km/h
+70,Dominic Thiem,Austria,AUT,188 km/h
+71,Carlos Alcaraz Garfia,Spain,ESP,188 km/h
+72,Daniel Evans,United Kingdom,GBR,188 km/h
+73,Pedro Cachin,Argentina,ARG,188 km/h
+74,Jeffrey John Wolf,United States,USA,187 km/h
+75,Jordan Thompson,Australia,AUS,187 km/h
+76,Tommy Paul,United States,USA,187 km/h
+77,Oscar Otte,Germany,GER,187 km/h
+78,Matteo Arnaldi,Italy,ITA,187 km/h
+79,Alex Michelsen,United States,USA,187 km/h
+80,Marton Fucsovics,Hungary,HUN,187 km/h
+81,Lorenzo Musetti,Italy,ITA,186 km/h
+82,Miomir Kecmanovic,Serbia,SRB,186 km/h
+83,Daniel Elahi Galan Riveros,Colombia,COL,186 km/h
+84,Marco Cecchinato,Italy,ITA,186 km/h
+85,Tomas Machac,Czech Republic,CZE,186 km/h
+86,Fabian Marozsan,Hungary,HUN,185 km/h
+87,Christian Garin,Chile,CHI,185 km/h
+88,Ilya Ivashka,Belarus,BLR,185 km/h
+89,Jason Kubler,Australia,AUS,185 km/h
+90,Ugo Humbert,France,FRA,185 km/h
+91,Andy Murray,United Kingdom,GBR,185 km/h
+92,Christopher Oconnell,Australia,AUS,185 km/h
+93,Elias Ymer,Sweden,SWE,185 km/h
+93,Flavio Cobolli,Italy,ITA,185 km/h
+95,Roberto Bautista Agut,Spain,ESP,184 km/h
+96,Nuno Borges,Portugal,POR,184 km/h
+97,Alejandro Davidovich Fokina,Spain,ESP,184 km/h
+98,David Goffin,Belgium,BEL,184 km/h
+99,Mackenzie Mcdonald,United States,USA,184 km/h
+100,Gregoire Barrere,France,FRA,184 km/h
