@@ -242,11 +242,11 @@ if __name__ == "__main__":
                 mph_speed = round(mph_speed, 2)  # Round to 2 decimal places
                 data[i].insert(0, float(mph_speed))  # Append the speed
             else:
-                data[i].insert(0, "No serve speed data?")  # If no data is found
+                data[i].insert(0, "no data?")  # If no data is found
         except:
             # Handle any errors and append "No data?"
             print(f"Error")
-            data[i].insert(0, "No serve speed data?")
+            data[i].insert(0, "no data?")
 
 
 
@@ -678,7 +678,7 @@ if __name__ == "__main__":
         player = data[i]
         print(i)
         print(f"Serve speed: {player[0]} mph")
-        print(f"Serve speed data type: {type(player[0])}")
+        # print(f"Serve speed data type: {type(player[0])}")
         print(f"Serve Percentage: {player[1]}%")
         print(f"Singles UTR: {player[2]}")
         print(f"Doubles UTR: {player[3]}")
