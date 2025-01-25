@@ -1,1 +1,2 @@
 # tennis-predictions
+### This repository is an AI model that predicts the serve speed of a tennis player based on a couple key statistics, such as 1st serve percentage, UTR singles and doubles rating, win percentage, and more. The model is trained off of only public data and the user's inputed 1st serve percentage. The model works reasonably well, predicting the serve within 10 mph 85% of the time. 
