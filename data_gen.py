@@ -5,10 +5,12 @@ def getting_complete_sets(pre_data, complete_data, match_types):
 
     for i in pre_data:
         player = pre_data[i]
+        print(f"i in pre_data = {i}")
         # print(i)
         # print(player)
-    
-        if player[0] == "No data?":
+
+        print(f"player[0] = {player[0]}")
+        if player[0] == "no data?":
             continue
         elif player[2] == 0 or player[3] == 0:
             continue
@@ -27,7 +29,20 @@ def getting_complete_sets(pre_data, complete_data, match_types):
         if player[4]['doubles'][3] < 0.5 or player[4]['singles'][3] < 0.5:
             continue
 
+        print(f"{i} made it through")
+
         complete_data[i] = pre_data[i]
+
+
+
+def seperate_serves(all_data, lower_data, higher_data):
+    for i in all_data:
+        if all_data[i][2] < 12:
+            lower_data[i] = all_data[i]
+        else:
+            higher_data[i] = all_data[i]
+
+
 
 
 def ran_opp(num1, num2):    # picks a random opperator 
@@ -40,27 +55,29 @@ def ran_opp(num1, num2):    # picks a random opperator
 
 
 
-def generator(complete_data, match_types, new_data):
+def generator(complete_data, match_types, new_data, extra_counter, cycles_multiplier=4):
     # Generate random numbers
     # subtract and/or add numbers to data sample x amount of times
     # append new data to data set
 
-    extra_counter = 1
 
     for i in complete_data:   # for loop goes through complete data set, and for each player, generates x amount more sample players
         player = complete_data[i]
-        for l in range(50):
+        for l in range(50*cycles_multiplier):
 
             extra_string = f"extra{extra_counter}"
 
             ran_num = random.random()
+            # ran_num *= 5
 
             match_data_dict = dict()
             
             # Generating a random stat for each new sample player being added to the dataset 
 
             serve_speed_change = ran_num * 4.3
-            new_serve_speed = ran_opp(player[0], serve_speed_change)
+            print(f"player name = {i}")
+            print(f"player[0] = {player[0]}")
+            new_serve_speed = ran_opp(float(player[0]), serve_speed_change)
             new_serve_perc = ran_opp(player[1], (ran_num * 3))
             new_singles_utr = ran_opp(player[2], ran_num)
             new_doubles_utr = ran_opp(player[3], ran_num)
@@ -101,6 +118,11 @@ def generator(complete_data, match_types, new_data):
 
 def main():
 
+    lower_data = dict()
+    higher_data = dict()
+
+    extra_counter = 1
+
     with open("data.json", "r") as file:
         pre_data = json.load(file)
     # print(pre_data)
@@ -121,12 +143,18 @@ def main():
         print()
     '''
 
-    generator(complete_data, match_types, new_data)
+    seperate_serves(complete_data, lower_data, higher_data)
 
-    for i in new_data:
-        print(i)
-        print(new_data[i])
-        print()
+    cycles_multiplier = 7
+    
+    generator(higher_data, match_types, new_data, extra_counter)
+
+    generator(lower_data, match_types, new_data, extra_counter, cycles_multiplier)
+
+    #for i in new_data:
+        #print(i)
+        #print(new_data[i])
+        #print()
     
 
 
